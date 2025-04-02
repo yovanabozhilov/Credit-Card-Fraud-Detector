@@ -26,7 +26,6 @@ int main() {
 
     std::string maskedCard = maskCardNumber(cardNumber);
 
-    // Display transaction details
     std::cout << "\n========================================" << std::endl;
     std::cout << "           TRANSACTION DETAILS          " << std::endl;
     std::cout << "========================================" << std::endl;
