@@ -8,7 +8,4 @@ Encrypted Card Number: 32c21a09d2d38a704ff6abe7e2bc93264a546a9e40c4e1f4921e27bfc
 Encrypted Card Number: 9499b646d68df7229886e070456f9b50e33fe6d04fca98df035285a61779f91f, Country: , Amount: 20000, Date: 2025-04-01 14:44:33, Result: Fraudulent: Suspicious country & Amount exceeds threshold
 Encrypted Card Number: eadcd7887158a705d125f89f2245580ee1108e2e58393b58fcc1d01b5508e9cd, Country: BG, Amount: 975678, Date: 2025-04-01 14:53:46, Result: Fraudulent: Amount exceeds threshold
 Encrypted Card Number: 4ef7cea5093b5f22b80a9609acea2c4e43aec5555343d0ad6fa6bd0eada94852, Country: BG, Amount: 3e+06, Date: 2025-04-01 16:09:34, Result: Fraudulent: Amount exceeds threshold
-Encrypted Card Number: fa3f6efeb3756a65040f4e713e790991d3f2cdb9f271456b39ee15c2736cc0ec, Country: BG, Amount: 78, Date: 2025-04-01 16:17:33, Result: Legitimate, Decrypted Card Number: <^ä8ß—ÄÕUûáuò
-Encrypted Card Number: a7221081edc2e52d2006a1d5f9219703d44ed9344e5b8ef945d850b24007b890, Country: BG, Amount: 87564, Date: 2025-04-01 16:25:08, Result: Fraudulent: Amount exceeds threshold, Decrypted Card Number: 1234567812345678
-Encrypted Card Number: 95b1f6815bf007186cc532ed39b895ca, Country: BG, Amount: 0, Date: 2025-04-01 16:25:53, Result: Legitimate, Decrypted Card Number: Joka
 Encrypted Card Number: df690b986bb65af2fba34c44fdae5e96f52480afba8462e314501004ae7a6431, Country: BG, Amount: 256.8, Date: 2025-04-01 16:29:57, Result: Legitimate
