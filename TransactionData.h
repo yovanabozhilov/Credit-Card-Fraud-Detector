@@ -11,10 +11,8 @@ private:
     std::string country;
 
 public:
-    // Constructor declaration
     TransactionData(std::string cardNumber, double amount, std::string date, std::string country);
 
-    // Getter functions
     std::string getCardNumber() const;
     double getAmount() const;
     std::string getDate() const;
