@@ -3,7 +3,6 @@
 
 #include <string>
 
-// Simulate decryption process for credit card number (dummy example)
 std::string decryptData(const std::string& data);
 
 #endif 
