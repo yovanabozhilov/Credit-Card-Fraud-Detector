@@ -5,7 +5,6 @@
 #include <fstream>
 #include <string>
 
-// Log transaction result to a file
 void logTransaction(const TransactionData& transaction, const std::string& result) {
 
     std::string encryptedCard = encryptData(transaction.getCardNumber());
