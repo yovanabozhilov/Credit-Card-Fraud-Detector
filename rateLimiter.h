@@ -6,7 +6,7 @@
 class RateLimiter {
 private:
     int maxRequests;
-    int timeWindow; // in seconds
+    int timeWindow; 
     int requestCount;
     std::chrono::steady_clock::time_point windowStartTime;
 
@@ -19,4 +19,4 @@ public:
     bool isAllowed();
 };
 
-#endif // RATE_LIMITER_HPP
+#endif 
