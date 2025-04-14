@@ -3,7 +3,6 @@
 #include <vector>
 #include <iostream>
 
-// Convert hex string back to bytes
 std::vector<unsigned char> hexToByteArray(const std::string& hex) {
     std::vector<unsigned char> bytes;
     for (size_t i = 0; i < hex.length(); i += 2)
@@ -11,13 +10,11 @@ std::vector<unsigned char> hexToByteArray(const std::string& hex) {
     return bytes;
 }
 
-// Decrypt AES-128-CBC encrypted data
 std::string decryptData(const std::string& encryptedHex) {
     std::vector<unsigned char> encryptedBytes = hexToByteArray(encryptedHex);
     EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
     if (!ctx) return "";
 
-    // Now AES_KEY and AES_IV are correctly linked
     if (EVP_DecryptInit_ex(ctx, EVP_aes_128_cbc(), NULL, AES_KEY, AES_IV) != 1) {
         EVP_CIPHER_CTX_free(ctx);
         return "";
