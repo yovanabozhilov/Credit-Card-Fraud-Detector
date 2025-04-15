@@ -9,7 +9,6 @@
 const unsigned char AES_KEY[16] = { 's', 'e', 'c', 'r', 'e', 't', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
 const unsigned char AES_IV[16] = { 'i', 'n', 'i', 't', 'v', 'e', 'c', 't', 'o', 'r', '1', '2', '3', '4', '5', '6' };
 
-// Convert byte array to hex string
 std::string byteArrayToHex(const unsigned char* data, size_t length) {
     std::stringstream ss;
     for (size_t i = 0; i < length; ++i)
@@ -17,7 +16,6 @@ std::string byteArrayToHex(const unsigned char* data, size_t length) {
     return ss.str();
 }
 
-// Encrypt data using AES-128-CBC
 std::string encryptData(const std::string& data) {
     EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
     if (!ctx) return "";
