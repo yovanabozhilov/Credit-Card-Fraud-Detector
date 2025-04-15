@@ -3,3 +3,9 @@ Encrypted Card Number: 9499b646d68df7229886e070456f9b50e33fe6d04fca98df035285a61
 Encrypted Card Number: eadcd7887158a705d125f89f2245580ee1108e2e58393b58fcc1d01b5508e9cd, Country: BG, Amount: 975678, Date: 2025-04-01 14:53:46, Result: Fraudulent: Amount exceeds threshold
 Encrypted Card Number: 4ef7cea5093b5f22b80a9609acea2c4e43aec5555343d0ad6fa6bd0eada94852, Country: BG, Amount: 3e+06, Date: 2025-04-01 16:09:34, Result: Fraudulent: Amount exceeds threshold
 Encrypted Card Number: df690b986bb65af2fba34c44fdae5e96f52480afba8462e314501004ae7a6431, Country: BG, Amount: 256.8, Date: 2025-04-01 16:29:57, Result: Legitimate
+Encrypted Card Number: 465ccd83be78de4bf35e7dc73ce288ca3e806060eb025b84f20ee8c59dc4a8d1, Country: BG, Amount: 20000, Date: 2025-04-15 06:55:14, Result: Fraudulent: Amount exceeds threshold
+Encrypted Card Number: 87aa63fa4dafc5c5fc781e18c2d8a3ef22f7ca5bd7deb62e67f38277102223e7, Country: BG, Amount: 1200, Date: 2025-04-15 06:56:33, Result: Legitimate
+Encrypted Card Number: c849d800a75ea246c7f51e9d01d3ebc9, Country: BG, Amount: 4.56789e+06, Date: 2025-04-15 07:11:31, Result: Fraudulent: Amount exceeds threshold
+Encrypted Card Number: 1c9eb7cac771bcd72884523840007ad230d5cae3a8dfde7f27367903b89466cb82f6b35a3365f93717e8c032a2914564, Country: BG, Amount: 200000, Date: 2025-04-15 07:30:03, Result: Fraudulent: Amount exceeds threshold
+Encrypted Card Number: 3c6ee1b6fe847d0efb6242fa35782b86e1527f49b88817b128a91957a97f48b31944e49158d5740d18dceb4af768c7d3, Country: BG, Amount: 30000, Date: 2025-04-15 07:32:52, Result: Fraudulent: Amount exceeds threshold
+, Decrypted Card Number: 1234567890123456

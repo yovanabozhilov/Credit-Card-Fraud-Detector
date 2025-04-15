@@ -3,6 +3,6 @@
 
 #include <string>
 
-std::string decryptData(const std::string& data);
+std::string decryptData(const std::string& encryptedHex);
 
-#endif 
+#endif
